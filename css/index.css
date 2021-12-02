@@ -26,6 +26,13 @@ html, body{
 }
 
 /* HEADER */
+header{
+    position: absolute;
+    top: 20px;
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
 .header p{
     font-size: 14px;
     font-weight: 700;
@@ -52,6 +59,8 @@ html, body{
     font-size: 0.875rem;
     letter-spacing: 2px;
     margin: 0;
+
+    animation-delay: 0.5s;
 }
 #carouselMovie .carousel-caption h2{
     font-size: 3.25rem;
@@ -61,6 +70,9 @@ html, body{
 #carouselMovie .carousel-caption p:last-of-type{
     font-size: 1.125rem;
     margin-bottom: 20px;
+}
+.movieCarousel__trailer{
+    animation-delay: .5s;
 }
 .movieCarousel__trailer>span{
     display: inline-block;
@@ -113,7 +125,7 @@ html, body{
 
 #carouselMovie .carousel-indicators{
     justify-content: flex-start;
-    bottom: 70px;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     margin-right: 0;
