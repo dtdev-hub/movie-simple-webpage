@@ -8,6 +8,11 @@ html, body{
     font-family: 'Roboto Condensed', sans-serif;
     color: #717171;
 }
+::selection{
+    background-color: #ec7532;
+    color: white;
+}
+
 /* line style */
 .myLine::after{
     content: "";
@@ -412,4 +417,20 @@ header{
 }
 .movieList__item:hover .movieList__overlay{
     opacity: 0;
+}
+
+/* CONTACT */
+.contact__content{
+    text-align: center;
+}
+.contact__content p:first-child{
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.contact__content a{
+    color: #fbbd61;
+    font-size: 46px;
+    text-decoration: none;
 }
