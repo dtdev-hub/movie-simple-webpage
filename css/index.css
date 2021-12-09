@@ -390,3 +390,26 @@ header{
 .comingSoon__video:hover i{
     transform: translate(-50%, -50%) scale(0.9);
 }
+
+/* MOVIELIST */
+.movieList{
+    background-color: #101010;
+}
+.movieList__item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.movieList__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #101010;
+    opacity: 0.6;
+    transition: .5s;
+}
+.movieList__item:hover .movieList__overlay{
+    opacity: 0;
+}
